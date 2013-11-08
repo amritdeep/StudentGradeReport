@@ -8,6 +8,7 @@ gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+gem 'haml-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -43,3 +44,26 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :development, :test do
+  # Gem for Development        
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  # gem 'annotate'
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
+
+  # Gem for test
+  gem 'shoulda-matchers'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'factory_girl'
+  gem 'database_cleaner'
+
+  gem 'guard-spork'
+  gem 'childprocess'
+  gem 'spork'
+  
+end

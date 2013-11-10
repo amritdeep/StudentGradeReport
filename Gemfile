@@ -47,8 +47,8 @@ end
 
 group :development, :test do
   # Gem for Development        
-  gem 'rspec-rails'
-  gem 'guard-rspec'
+  # gem 'rspec-rails'
+  # gem 'guard-rspec'
   # gem 'annotate'
 
   gem 'better_errors'
@@ -56,14 +56,14 @@ group :development, :test do
   gem 'meta_request'
 
   # Gem for test
-  gem 'shoulda-matchers'
-  gem 'capybara'
-  gem 'factory_girl_rails'
-  gem 'factory_girl'
-  gem 'database_cleaner'
+  # gem 'shoulda-matchers'
+  # gem 'capybara'
+  # gem 'factory_girl_rails'
+  # gem 'factory_girl'
+  # gem 'database_cleaner'
 
-  gem 'guard-spork'
-  gem 'childprocess'
-  gem 'spork'
+  # gem 'guard-spork'
+  # gem 'childprocess'
+  # gem 'spork'
   
 end
